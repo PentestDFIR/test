@@ -53,50 +53,51 @@ Aracı (`PersistenceScanner.exe`) çalıştırdığınızda şu adımlar sıras�
 
 ## 🖥️ Terminal Önizlemesi
 
+```ansi
+[+] WinPersistHunter v1.0 baslatiliyor...
+[*] Yetki Kontrolu: NT AUTHORITY\SYSTEM (Administrator) OK.
 
-[+] WinPersistHunter v1.0 başlatılıyor...
-[*] Yetki Kontrolü: NT AUTHORITY\SYSTEM (Administrator) OK.
-
-**----------------------------------------------------------------------**
- ** OZET: 14289 kalicilik noktasi bulundu**
-**----------------------------------------------------------------------**
-
-======================================================================
-***Bulunan sonuclar uzerinde dosya ayiklama (filtreleme)
-islemi gerceklestirilsin mi? (Y/N):*** y
-**1-** ***Silinen dosyalar sonuclardan elensin mi? (Y/N):*** y
-**2-** ***Dijital imzasi olan dosyalar sonuclardan elensin mi? (Y/N):*** n
-**3-** ***Safe sistem dosyalari sonuclardan elensin mi? (Y/N):*** y
-**----------------------------------------------------------------------**
-  **Filtreleme Raporu:**
-   **Diskte bulunmayan:**       285
-   **Guvenli sistem dosyasi:**  3110
-**----------------------------------------------------------------------**
-  **Toplam:** 14289 -> 10894 (3395 filtrelendi)
-**----------------------------------------------------------------------**
+----------------------------------------------------------------------
+ OZET: 14289 kalicilik noktasi bulundu
+----------------------------------------------------------------------
 
 ======================================================================
-***Sonuclari bir .txt dosyasina kaydetmek ister misiniz? (Y/N):*** y
-
-**[OK] Sonuclar kaydedildi:** PersistenceScan_y-m-a.txt
-     **Tam yol:** C:\C:\Users\%USERNAME%\PersistenceScan_y-m-a.txt
+Bulunan sonuclar uzerinde dosya ayiklama (filtreleme)
+islemi gerceklestirilsin mi? (Y/N): y
+1- Silinen dosyalar sonuclardan elensin mi? (Y/N): y
+2- Dijital imzasi olan dosyalar sonuclardan elensin mi? (Y/N): n
+3- Safe sistem dosyalari sonuclardan elensin mi? (Y/N): y
+----------------------------------------------------------------------
+  Filtreleme Raporu:
+   Diskte bulunmayan:       285
+   Guvenli sistem dosyasi:  3110
+----------------------------------------------------------------------
+  Toplam: 14289 -> 10894 (3395 filtrelendi)
+----------------------------------------------------------------------
 
 ======================================================================
-***PathsParser ile otomatik analiz edilsin mi? (Y/N):*** y
-*<small>[UYARI] Klasorde zaten p.txt var. Islemi onaylarsaniz bu dosya otomatik olarak silinecek ve uzerine yazilacaktir!</small>*
-***Devam etmek istiyor musunuz? (Y/N):*** y
-**[...] Dosya p.txt olarak yeniden adlandiriliyor...**
-**[OK] Yeniden adlandirildi ->** p.txt
-**[...] PathsParser indiriliyor...**
-**[OK] PathsParser indirildi**
-**[...] PathsParser baslatiliyor...**
-**[OK] PathsParser calistirildi.**
+Sonuclari bir .txt dosyasina kaydetmek ister misiniz? (Y/N): y
 
- > **Program tamamlandi. Cikmak icin bir tusa basin...**
+[32m[OK] Sonuclar kaydedildi:[0m PersistenceScan_y-m-a.txt
+     Tam yol: C:\Users\%USERNAME%\PersistenceScan_y-m-a.txt
 
+======================================================================
+PathsParser ile otomatik analiz edilsin mi? (Y/N): y
+[31m[UYARI] Klasorde zaten p.txt var. Islemi onaylarsaniz bu dosya otomatik olarak silinecek ve uzerine yazilacaktir![0m
+Devam etmek istiyor musunuz? (Y/N): y
+[...] Dosya p.txt olarak yeniden adlandiriliyor...
+[32m[OK] Yeniden adlandirildi ->[0m p.txt
+[...] PathsParser indiriliyor...
+[32m[OK] PathsParser indirildi[0m
+[...] PathsParser baslatiliyor...
+[32m[OK] PathsParser calistirildi.[0m
+
+[32mProgram tamamlandi. Cikmak icin bir tusa basin...[0m
+```
 
 ---
 
 <div align="center">
   <i>Siber güvenlik uzmanları ve adli bilişim analistleri için geliştirilmiştir.</i>
 </div>
+```
