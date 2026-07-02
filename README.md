@@ -57,18 +57,42 @@ Aracı (`PersistenceScanner.exe`) çalıştırdığınızda şu adımlar sıras�
 [+] WinPersistHunter v1.0 başlatılıyor...
 [*] Yetki Kontrolü: NT AUTHORITY\SYSTEM (Administrator) OK.
 
-[!] UYARI: Klasörde zaten 'p.txt' dosyası bulunuyor!
-[!] İşleme devam ederseniz eski analiz verileri otomatik olarak silinecektir.
-[?] Eski verinin silinmesini onaylıyor musunuz? (y/n): y
+**----------------------------------------------------------------------**
+ ** OZET: 14289 kalicilik noktasi bulundu**
+**----------------------------------------------------------------------**
 
-[*] Modül 1 taranıyor... %APPDATA%\...\Startup [1 şüpheli LNK bulundu]
-[*] Modül 2 taranıyor... HKLM\...\Run [Temiz]
-[*] Modül 7 taranıyor... .NET Startup Hooks [Temiz]
-[+] Tarama tamamlandı. Yeni sonuçlar 'p.txt' dosyasına yazıldı.
+======================================================================
+***Bulunan sonuclar uzerinde dosya ayiklama (filtreleme)
+islemi gerceklestirilsin mi? (Y/N):*** y
+**1-** ***Silinen dosyalar sonuclardan elensin mi? (Y/N):*** y
+**2-** ***Dijital imzasi olan dosyalar sonuclardan elensin mi? (Y/N):*** n
+**3-** ***Safe sistem dosyalari sonuclardan elensin mi? (Y/N):*** y
+**----------------------------------------------------------------------**
+  **Filtreleme Raporu:**
+   **Diskte bulunmayan:**       285
+   **Guvenli sistem dosyasi:**  3110
+**----------------------------------------------------------------------**
+  **Toplam:** 14289 -> 10894 (3395 filtrelendi)
+**----------------------------------------------------------------------**
 
-[?] PathsParser ile kombine edilsin mi? (y/n): y
-[+] 'pathsparser.exe' klasörde zaten mevcut. İndirme adımı atlanıyor.
-[*] PathsParser otomatik olarak başlatılıyor...
+======================================================================
+***Sonuclari bir .txt dosyasina kaydetmek ister misiniz? (Y/N):*** y
+
+**[OK] Sonuclar kaydedildi:** PersistenceScan_y-m-a.txt
+     **Tam yol:** C:\C:\Users\%USERNAME%\PersistenceScan_y-m-a.txt
+
+======================================================================
+***PathsParser ile otomatik analiz edilsin mi? (Y/N):*** y
+*<small>[UYARI] Klasorde zaten p.txt var. Islemi onaylarsaniz bu dosya otomatik olarak silinecek ve uzerine yazilacaktir!</small>*
+***Devam etmek istiyor musunuz? (Y/N):*** y
+**[...] Dosya p.txt olarak yeniden adlandiriliyor...**
+**[OK] Yeniden adlandirildi ->** p.txt
+**[...] PathsParser indiriliyor...**
+**[OK] PathsParser indirildi**
+**[...] PathsParser baslatiliyor...**
+**[OK] PathsParser calistirildi.**
+
+ > **Program tamamlandi. Cikmak icin bir tusa basin...**
 ```
 
 ---
